@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -17,15 +16,15 @@ scanf("%d", &n);
 
 if (n > 0)
 {
-printf("is positive\n");
+  printf("%d", n, "is positive\n");
 }
-else if (n == 0)
+ else if (n == 0)
 {
-printf("is zero\n");
+  printf("%d", n, "is zero\n");
 }
-else if (n < 0)
+ else if (n < 0)
 {
-printf("is negative\n");
+  printf("%d", n, "is negative\n");
 }
 
 /* your code goes there */
