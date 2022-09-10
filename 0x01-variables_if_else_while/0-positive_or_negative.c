@@ -17,15 +17,15 @@ scanf("%d", &n);
 
 if (n > 0)
 {
-printf("%d", n, "is positive\n");
+printf(n, "%d is positive\n");
 }
 else if (n == 0)
 {
-printf("%d", n, "is zero\n");
+printf(n, "%d is zero\n");
 }
 else if (n < 0)
 {
-printf("%d", n, "is negative\n");
+printf(n,"%d is negative\n");
 }
 
 /* your code goes there */
