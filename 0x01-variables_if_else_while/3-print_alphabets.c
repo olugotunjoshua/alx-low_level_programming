@@ -15,7 +15,7 @@ for (low = 'a'; low <= 'z'; low++)
 {
 putchar(low);
 }
-for (upp = 'a'; upp <= 'z'; upp++)
+for (upp = 'A'; upp <= 'Z'; upp++)
 {
 putchar(upp);
 }
