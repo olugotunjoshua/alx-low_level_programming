@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *main-Entry point
+ *Return: 0
+ */
+int main(void)
+{
+char i;
+char r;
+for (i = '0'; i <= '9'; i++)
+{
+putchar(i);
+}
+for (r = 'a'; r<= 'f'; r++)
+{
+putchar(r)
+}
+putchar ('\n');
+return (0);
