@@ -10,16 +10,20 @@
 int main(void)
 {
 int n;
-for (n = 11; n <= 34; n++)
+int m;
+for (n = 0; n < 9; n++)
 {
-putchar(n);
-if (n == 34)
+for (m = n + 1; m < 10; m++)
+{
+putchar((n % 10) + '0');
 
-break;
+putchar((m % 10) + '0');
+if (n == 8 && m == 9)
+continue;
 putchar(',');
 putchar(' ');
 }
-
+}
 putchar('\n');
 return (0);
 }
