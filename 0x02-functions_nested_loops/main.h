@@ -1,16 +1,14 @@
-#include <main.h>
+#include <stdio.h>
 /**
- *main- entry point
+ *main-entry point
  * 
- *Return: 0
+ *Return:0
  */
-void print_alphabet(void);
-
 
 void print_alphabet(void)
 {
 char x;
-for(x = 'a'; x <= 'z'; x++)
+ for(x = 'a'; x <= 'z'; x++)
 {
 putchar(x);
 }
