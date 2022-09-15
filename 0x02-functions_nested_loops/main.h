@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include <main.h>
 /**
  *main- entry point
  * 
  *Return: 0
  */
+void print_alphabet(void);
 
-int main(void)
 
+void print_alphabet(void)
 {
-  print_alphabet();
-  return (0);
+char x;
+for(x = 'a'; x <= 'z'; x++)
+{
+putchar(x);
+}
+putchar('\n');
 }
