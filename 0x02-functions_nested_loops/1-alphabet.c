@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*Print_alphabet-print the english alphabet check code
+*print_alphabet-print the english alphabet check code
 *Return: 0
 */
 void print_alphabet(void);
