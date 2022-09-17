@@ -9,12 +9,12 @@ int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
-putchar('\n');
 return (1);
+putchar('\n');
 }
 else
 {   
-putchar('\n');
 return (0);
+putchar('\n');
 }
 }
