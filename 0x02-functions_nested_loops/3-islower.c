@@ -19,7 +19,7 @@ return (0);
 
 int main(void)
 {
-  int r;
+int r;
 
 r = _islower('H');
 putchar(r + '0');
