@@ -4,8 +4,13 @@
  * @s: check codr
  */
 void print_rev(char *s)
-{
-	while (*s--)
-		putchar(*s--);
+{ 
+	int a;
+	a = 0;
+
+	while (s[a] != '\0')
+		a++;
+	for (a -= 1; a >= 0 a--)
+		putchar(s[a]);
 	putchar('\n');
 }
