@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * _strlen - to check the length of the string
- *@s-check character
- *Return:length
+ * _strlen - check code
+ * @s - character to check
+ * Return: length
  */
 
 int _strlen(char *s)
 {
-	size_t length = 0;
-
+	size_t = length;
 	while (*s++)
 		length++;
-	return(length);
+	return (length);
 }
