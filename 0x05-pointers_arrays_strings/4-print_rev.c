@@ -4,7 +4,7 @@
  * @s: check codr
  */
 void print_rev(char *s)
-{ 
+{
 	int a;
 	a = 0;
 
