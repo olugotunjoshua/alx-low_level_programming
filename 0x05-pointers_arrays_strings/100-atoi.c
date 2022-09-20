@@ -5,7 +5,7 @@
  *Return:0 if there are number
  */
 
-int _ atoi(char *s)
+int _atoi(char *s)
 {
 	int sn = 1;
 	unsigned int n = 0;
