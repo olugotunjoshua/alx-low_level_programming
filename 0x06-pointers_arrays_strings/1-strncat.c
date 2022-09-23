@@ -19,5 +19,5 @@ while (src[s] != src[d])
 	s++;
 }
 dest[d] = '\0';
-Return(dest);
+Return (dest);
 }
