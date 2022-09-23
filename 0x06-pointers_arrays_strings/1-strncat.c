@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strncat- concatenates two strings
+ * _strncat- concatenates two strin
  * @dest: character to check code
  * @src: character to check code
  * @n: integer to check code
  * Return: dest
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int d = 0;
 int s = 0;
